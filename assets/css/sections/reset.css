@@ -1,0 +1,85 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-par {
+  color: var(--text-color);
+  line-height: 24px;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 2rem;
+}
+
+.head-2 {
+  color: var(--primary-color) !important;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.btnPrimary {
+  padding: 0.4rem 0.8rem;
+  background-color: var(--primary-color);
+  color: var(--wh-color);
+  background-image: url(../../img/pattern.svg);
+  border-radius: 10px;
+  transition: 0.5s;
+  border: 1px solid transparent;
+  font-size: 1.1rem;
+}
+
+.btnPrimary:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.btnSec {
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  color: var(--dark-color);
+  border-radius: 10px;
+  transition: 0.5s;
+  border: 1px solid var(--borderL20-color);
+  font-size: 1.1rem;
+}
+.btnSec:hover ,.btnSec.active {
+  background-image: url(../../img/pattern.svg);
+
+  background-color: var(--primary-color);
+  color: var(--wh-color);
+}
+.btnThree {
+  padding: 0.8rem 2rem;
+  background-color: var(--wh-color);
+  color: var(--primary-color);
+  transition: 0.5s;
+  font-size: 1.1rem;
+  border: 1px solid var(--borderL20-color);
+
+}
+.btnThree:hover  {
+  background-image: url(../../img/pattern.svg);
+
+  background-color: var(--primary-color);
+  color: var(--wh-color);
+  border: 1px solid var(--wh-color);
+
+}
+
+
+
+.btnBig {
+  padding: 0.6rem 1.8rem;
+}

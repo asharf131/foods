@@ -1,0 +1,14 @@
+main {
+  overflow: hidden;
+  background-image: url(../../img/sec1/hero_bgi.svg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: 0 0;
+}
+main h1{
+  color: var(--dark-color);
+}
+
+
+
+

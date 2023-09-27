@@ -1,0 +1,39 @@
+/* header top */
+.top {
+  background-color: var(--primary-color);
+  color: var(--whL80-color);
+  height: 8vh;
+  line-height: 8vh;
+  text-align: center;
+}
+.top a {
+  color: var(--wh-color);
+  font-weight: 500;
+}
+.top a:hover {
+text-decoration: underline 2px;
+text-underline-offset: 5px;
+}
+
+
+/* main-header */
+
+.main-header {
+  font-size: 1.2rem;
+}
+.main-header .navbar-nav .nav-link.active , 
+.main-header .navbar-nav .nav-link:hover {
+  color: var(--primary-color);
+}
+.main-header .number {
+  color: var(--primary-color);
+  background-color: var(--wh-color);
+  border: 1px solid;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: grid;
+  place-content: center;
+  box-shadow: 0 0 2px var(--primary-color);
+  font-size: 1rem;
+}

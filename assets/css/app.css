@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import './sections/reset.css';
+@import './sections/header.css';
+@import './sections/main.css';
+
+
+
+:root {
+  --primary-color: #35B8BE;
+  --dark-color: #08090a;
+  --text-color: #546285;
+  --darkL80-color: #27214acc;
+  --wh-color: #FFFFFF;
+  --whL80-color: rgba(255, 255, 255, 0.8);
+  --borderL20-color: hsla(210, 15%, 45%, 0.2);
+}
+
+section.about , section.contcat , section.menu  {
+  background-image: url(../img/sec2/sec2_bg-text.svg), url(../img/bg-carve.svg);
+  background-repeat: no-repeat;
+background-position: 10%;
+}
+section.menu input[type="number"]{
+  width: 50px !important;
+}
+
+
+
+.order .col-two {
+  background-color: var(--primary-color);
+  background-image: url(../img/sec7/sec7_pattern.svg);
+
+  background-repeat: no-repeat;
+  background-position: 0 -50px;
+}
+
+
+
+footer {
+  background-color: #F5FBFC;
+  background-image: url(../img/PatterFooter.svg);
+  background-repeat: no-repeat;
+  background-position: left -20px;
+}
+footer .up nav a {
+  color: var(--text-color);
+}
+footer .up h5 {
+  margin-bottom: 15px;
+}
+footer .socail-links a{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border:2px solid var(--borderL20-color);
+  display: inline-grid;
+  place-items: center;
+  color: var(--text-color);
+}
